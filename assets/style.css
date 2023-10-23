@@ -91,8 +91,10 @@ body {
 }
 
 #gallery {
-	min-height: 100vh;
+	min-height: 100vh; 
+
 }
+
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -126,6 +128,7 @@ body {
 	object-fit: cover;
 	padding: .5em;
 }
+
 
 .quote {
 	font-family: 'Spectral';
@@ -309,39 +312,3 @@ input[type="submit"] {
 		z-index: -1;
 	}
 }
-
-@media all and (max-width: 650px) {
-	.top-header {
-		flex-direction: column;
-		padding-inline: 0;
-	}
-	.top-header .nav, .top-header .nav ul {
-		width: 100%;
-		padding: 0 0 0 0;
-	}
-	.top-header .nav li {
-		flex: 1;
-		padding-block: 1em;
-		text-align: center;
-	}
-	.picture.left::before, .picture.right::before {
-		height: 150px;
-	}
-	#services .container {
-		align-items: center;
-	}
-	.service {
-		max-width: 90%;
-	}
-	#about, #contact {
-		padding-inline: 2em;
-		padding-block: 2em;
-	}
-	form {
-		width: 100%;
-	}
-	.picture {
-		width: 80%;
-	}
-}
-
