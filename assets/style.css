@@ -240,6 +240,19 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+footer{
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+	padding: 50px 20px;
+    background-color: #A8D5D8;
+}
+
+footer li {
+	list-style: none;
+
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -312,5 +325,11 @@ input[type="submit"] {
 		bottom: 0;
 		right: 0;
 		z-index: -1;
+	}
+
+	footer{
+		display: flex;
+		flex-direction: column;
+		
 	}
 }

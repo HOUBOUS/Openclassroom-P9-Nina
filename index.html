@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/style.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,17 +20,69 @@
       name="description"
       content="Excellente photographe Nina Carducci à Bordeaux, immortalise vos moments avec la prise des photos, retouches et créations d'album"
     />
-
     <meta name="robots" content="index, follow" />
     <meta property="og:locale" content="fr-FR" />
     <meta property="og:language" content="fr" />
     <meta property="og:type" content="website" />
-
     <meta property="og:url" content="https://nina-carducci.github.io/" />
     <meta property="og:site_name" content="nina-carducci.github.io" />
-
     <meta property="og:image" content="./assets/images/nina.avif" />
-    <script></script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://nina-carducci.github.io/#website",
+            "url": "https://nina-carducci.github.io/",
+            "name": "Nina Carducci",
+            "description": "Photographe freelance",
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://nina-carducci.github.io/#webpage",
+            "url": "https://nina-carducci.github.io/",
+            "name": "SiteWeb Nina Carducci - Photographions vos moments les plus précieux",
+            "isPartOf": { "@id": "https://nina-carducci.github.io/#website" },
+            "description": "Excellente photographe Nina Carducci à Bordeaux, immortalise vos moments. Vous présente son portfolio de photos : spectacles, mariages, portraits...",
+            "inLanguage": "fr-FR",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": ["https://nina-carducci.github.io/"]
+              }
+            ]
+          },
+          {
+            "@type": "ProfessionalService",
+            "currenciesAccepted": "EUR",
+            "openingHours": "Mo,Tu,We,Th,Fr 10:00-19:00",
+            "paymentAccepted": "Cash, Credit Card",
+            "priceRange": "50-400 €",
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "FR",
+              "addressLocality": "Bordeaux, France",
+              "postalCode": "33200",
+              "streetAddress": "68 avenue Alsace-Lorraine"
+            },
+            "areaServed": {
+              "@type": "AdministrativeArea",
+              "name": ["Île de France", "Bordeaux"]
+            },
+            "email": "ninacarducci@openclassrooms.fr",
+            "legalName": "Nina Carducci",
+            "numberOfEmployees": { "@type": "QuantitativeValue", "value": 1 },
+            "slogan": "immortalisez vos moments les plus précieux et gardez un souvenir inoubliable.",
+            "telephone": "+33556677889",
+            "description": "Photographe freelance",
+            "name": "Nina Carducci",
+            "url": "https://nina-carducci.github.io/"
+          }
+        ]
+      }
+    </script>
 
     <title>
       Nina Carducci - Photographe professionnelle Freelance - qui rend les
@@ -147,105 +199,169 @@
         </div>
       </div>
     </header>
-
-    <div id="about">
-      <div class="picture left">
-        <img
-          src="./assets/images/nina.avif"
-          alt="Photo of photographer ninca carducci"
-          loading="lazy"
-          width="500"
-          height="400"
-        />
+    <main>
+      <div id="about">
+        <div class="picture left">
+          <img
+            src="./assets/images/nina.avif"
+            alt="Photo of photographer ninca carducci"
+            loading="lazy"
+            width="500"
+            height="400"
+          />
+        </div>
+        <div id="about-me">
+          <!--changement de h3 en h2  et h6 en h3 -->
+          <h2 class="about-me__title">A propos de moi</h2>
+          <h3 class="about-me__introduction">
+            Devenir photographe était pour moi une évidence. Comme si j’y étais
+            prédestiné. Saisir un moment, une émotion, une situation, un
+            endroit, une lumière et les rendre immortels, voilà ce qui me fait
+            vibrer.
+          </h3>
+          <p>
+            Nous passons notre vie à chercher le bonheur, et lorsque nous y
+            touchons, nous n’avons qu’une envie : le figer au travers de
+            photographies pour le savourer avec les personnes qui sont
+            importantes à nos yeux, ou le partager au plus grand nombre. C’est
+            ce que je vous propose : saisir ces merveilleux moments au travers
+            de mon regard, mon approche, ma technique. Rendre ces moments
+            immortels, afin que vous puissiez y puiser de l’amour, du bonheur,
+            de la tendresse et de lumière à chaque fois que vous poserez les
+            yeux sur vos photos.
+          </p>
+        </div>
       </div>
-      <div id="about-me">
-        <!--changement de h3 en h2  et h6 en h3 -->
-        <h2 class="about-me__title">A propos de moi</h2>
-        <h3 class="about-me__introduction">
-          Devenir photographe était pour moi une évidence. Comme si j’y étais
-          prédestiné. Saisir un moment, une émotion, une situation, un endroit,
-          une lumière et les rendre immortels, voilà ce qui me fait vibrer.
-        </h3>
-        <p>
-          Nous passons notre vie à chercher le bonheur, et lorsque nous y
-          touchons, nous n’avons qu’une envie : le figer au travers de
-          photographies pour le savourer avec les personnes qui sont importantes
-          à nos yeux, ou le partager au plus grand nombre. C’est ce que je vous
-          propose : saisir ces merveilleux moments au travers de mon regard, mon
-          approche, ma technique. Rendre ces moments immortels, afin que vous
-          puissiez y puiser de l’amour, du bonheur, de la tendresse et de
-          lumière à chaque fois que vous poserez les yeux sur vos photos.
-        </p>
-      </div>
-    </div>
-    <div id="gallery">
-      <h3 class="title">Portfolio</h3>
-      <div class="container py-3">
-        <div class="gallery" style="display: none; object-fit: cover">
-          <img
-            data-gallery-tag="Concert"
-            class="gallery-item"
-            src="./assets/images/galleryWebP/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.avif"
-            alt="Concert hall with audience and musicians"
-            loading="lazy"
-          />
+      <div id="gallery">
+        <h3 class="title">Portfolio</h3>
+        <div class="container py-3">
+          <div class="gallery" style="display: none; object-fit: cover">
+            <img
+              data-gallery-tag="Concert"
+              class="gallery-item"
+              src="./assets/images/galleryWebP/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.avif"
+              alt="Concert hall with audience and musicians"
+              loading="lazy"
+            />
 
-          <img
-            data-gallery-tag="Entreprises"
-            class="gallery-item"
-            src="./assets/images/galleryWebP/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.avif"
-            alt="Corporate photo : costumed gentleman Ali Morshedlou"
-            loading="lazy"
-          />
-          <img
-            data-gallery-tag="Entreprises"
-            class="gallery-item"
-            src="./assets/images/galleryWebP/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.avif"
-            alt="Corporate photo : photo of two colleagues in a good mood"
-            loading="lazy"
-          />
-          <img
-            data-gallery-tag="Mariages"
-            class="gallery-item"
-            src="./assets/images/galleryWebP/mariage/hannah-busing-RvF2R_qMpRk-unsplash.avif"
-            alt="Wedding photo : husband extends both his hands to take his bride's hands"
-            loading="lazy"
-          />
-          <img
-            data-gallery-tag="Portrait"
-            class="gallery-item"
-            src="./assets/images/galleryWebP/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.avif"
-            alt="Portrait photo : Ade Tunji"
-            loading="lazy"
-          />
-          <img
-            data-gallery-tag="Mariages"
-            class="gallery-item"
-            src="./assets/images/galleryWebP/mariage/jakob-owens-SiniLJkXhMc-unsplash.avif"
-            alt="Wedding photo : two brides hold hands being happy"
-            loading="lazy"
-          />
-          <img
-            data-gallery-tag="Portrait"
-            class="gallery-item"
-            src="./assets/images/galleryWebP/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.avif"
-            alt="Portrait photo :  the young lady Nino Van Prattenburg"
-            loading="lazy"
-          />
-          <img
-            data-gallery-tag="Concert"
-            class="gallery-item"
-            src="./assets/images/galleryWebP/concerts/austin-neill-hgO1wFPXl3I-unsplash.avif"
-            alt="Concert photo : Crowd at a concert Austin Neill "
-            loading="lazy"
-          />
-          <img
-            data-gallery-tag="Entreprises"
-            class="gallery-item"
-            src="./assets/images/galleryWebP/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.avif"
-            alt="Corporate photo : a young woman works on her computer while laughing with colleagues"
-            loading="lazy"
-          />
+            <img
+              data-gallery-tag="Entreprises"
+              class="gallery-item"
+              src="./assets/images/galleryWebP/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.avif"
+              alt="Corporate photo : costumed gentleman Ali Morshedlou"
+              loading="lazy"
+            />
+            <img
+              data-gallery-tag="Entreprises"
+              class="gallery-item"
+              src="./assets/images/galleryWebP/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.avif"
+              alt="Corporate photo : photo of two colleagues in a good mood"
+              loading="lazy"
+            />
+            <img
+              data-gallery-tag="Mariages"
+              class="gallery-item"
+              src="./assets/images/galleryWebP/mariage/hannah-busing-RvF2R_qMpRk-unsplash.avif"
+              alt="Wedding photo : husband extends both his hands to take his bride's hands"
+              loading="lazy"
+            />
+            <img
+              data-gallery-tag="Portrait"
+              class="gallery-item"
+              src="./assets/images/galleryWebP/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.avif"
+              alt="Portrait photo : Ade Tunji"
+              loading="lazy"
+            />
+            <img
+              data-gallery-tag="Mariages"
+              class="gallery-item"
+              src="./assets/images/galleryWebP/mariage/jakob-owens-SiniLJkXhMc-unsplash.avif"
+              alt="Wedding photo : two brides hold hands being happy"
+              loading="lazy"
+            />
+            <img
+              data-gallery-tag="Portrait"
+              class="gallery-item"
+              src="./assets/images/galleryWebP/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.avif"
+              alt="Portrait photo :  the young lady Nino Van Prattenburg"
+              loading="lazy"
+            />
+            <img
+              data-gallery-tag="Concert"
+              class="gallery-item"
+              src="./assets/images/galleryWebP/concerts/austin-neill-hgO1wFPXl3I-unsplash.avif"
+              alt="Concert photo : Crowd at a concert Austin Neill "
+              loading="lazy"
+            />
+            <img
+              data-gallery-tag="Entreprises"
+              class="gallery-item"
+              src="./assets/images/galleryWebP/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.avif"
+              alt="Corporate photo : a young woman works on her computer while laughing with colleagues"
+              loading="lazy"
+            />
+          </div>
+        </div>
+        <div class="quote">
+          <figure>
+            <blockquote>
+              <!--Changement de h1 en p-->
+              <p class="quote__text">
+                Un portrait n’est pas une ressemblance. Dès lors qu’une émotion
+                ou qu’un fait est traduit en photo, il cesse d’être un fait pour
+                devenir une opinion. L’inexactitude n’existe pas en
+                photographie. Toutes les photos sont exactes. Aucune d’elles
+                n’est la vérité.
+              </p>
+            </blockquote>
+            <figcaption class="quote__author">- Richard Avedon</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div id="services">
+        <h3 class="title">Mes services</h3>
+        <div class="container">
+          <div class="service">
+            <div class="service__description">
+              <h3>Shooting photo</h3>
+              <p>
+                Pour capturer vos moments les plus précieux et garder un
+                souvenir impérissable. Je me déplace en Île-de-France pour
+                réaliser vos photos
+              </p>
+            </div>
+            <div class="service__price">
+              <h4>350€/demi journée</h4>
+              <span>Matériel, déplacement inclus</span>
+            </div>
+          </div>
+          <div class="service">
+            <div class="service__description">
+              <h3>Retouches</h3>
+              <p>
+                Vous souhaitez retoucher vos photos pour un résultat
+                professionnel ? Bénéficier d’un rendu optimal pour vos
+                publications
+              </p>
+            </div>
+            <div class="service__price">
+              <h4>50€/photo</h4>
+              <span>2 AR par photo</span>
+            </div>
+          </div>
+          <div class="service">
+            <div class="service__description">
+              <h3>Album photos</h3>
+              <p>
+                Partagez avec vos proches et vos clients les photos des moments
+                partagés ensemble à travers un album photo personnalisé
+              </p>
+            </div>
+            <div class="service__price">
+              <h4>400€ album A4</h4>
+              <span>30 pages recto/verso</span>
+            </div>
+          </div>
         </div>
       </div>
       <div class="quote">
@@ -253,75 +369,15 @@
           <blockquote>
             <!--Changement de h1 en p-->
             <p class="quote__text">
-              Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou
-              qu’un fait est traduit en photo, il cesse d’être un fait pour
-              devenir une opinion. L’inexactitude n’existe pas en photographie.
-              Toutes les photos sont exactes. Aucune d’elles n’est la vérité.
+              De manière inconsciente, je crois, je guette un regard, une
+              expression, des traits ou une nostalgie capable de résumer ou plus
+              exactement de révéler une vie
             </p>
           </blockquote>
           <figcaption class="quote__author">- Richard Avedon</figcaption>
         </figure>
       </div>
-    </div>
-    <div id="services">
-      <h3 class="title">Mes services</h3>
-      <div class="container">
-        <div class="service">
-          <div class="service__description">
-            <h3>Shooting photo</h3>
-            <p>
-              Pour capturer vos moments les plus précieux et garder un souvenir
-              impérissable. Je me déplace en Île-de-France pour réaliser vos
-              photos
-            </p>
-          </div>
-          <div class="service__price">
-            <h4>350€/demi journée</h4>
-            <span>Matériel, déplacement inclus</span>
-          </div>
-        </div>
-        <div class="service">
-          <div class="service__description">
-            <h3>Retouches</h3>
-            <p>
-              Vous souhaitez retoucher vos photos pour un résultat professionnel
-              ? Bénéficier d’un rendu optimal pour vos publications
-            </p>
-          </div>
-          <div class="service__price">
-            <h4>50€/photo</h4>
-            <span>2 AR par photo</span>
-          </div>
-        </div>
-        <div class="service">
-          <div class="service__description">
-            <h3>Album photos</h3>
-            <p>
-              Partagez avec vos proches et vos clients les photos des moments
-              partagés ensemble à travers un album photo personnalisé
-            </p>
-          </div>
-          <div class="service__price">
-            <h4>400€ album A4</h4>
-            <span>30 pages recto/verso</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="quote">
-      <figure>
-        <blockquote>
-          <!--Changement de h1 en p-->
-          <p class="quote__text">
-            De manière inconsciente, je crois, je guette un regard, une
-            expression, des traits ou une nostalgie capable de résumer ou plus
-            exactement de révéler une vie
-          </p>
-        </blockquote>
-        <figcaption class="quote__author">- Richard Avedon</figcaption>
-      </figure>
-    </div>
-    <footer>
+     <section>
       <div id="contact">
         <div class="container">
           <div class="form-container">
@@ -370,10 +426,32 @@
           </div>
         </div>
       </div>
+    </main>
+    <footer>
+      <div>
+        <ul>
+          <li><strong>Adresse: </strong></li>
+          <li>Nina Carducci Photographe</li>
+          <li>68 avenue Alsace-Lorraine</li>
+          <li>France</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><strong>Téléphone: </strong></li>
+          <li>05 56 67 78 89</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><strong>Horaires d'ouverture:</strong></li>
+          <li>Du Lundi au Vendredi de 10:00 à 19:00</li>
+        </ul>
+      </div>
+      <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
+      <script src="./assets/cdnjs/jquery.min.js" defer></script>
+      <script src="./assets/maugallery.min.js" defer></script>
+      <script src="./assets/scripts.min.js" defer></script>
     </footer>
-    <script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
-    <script src="./assets/cdnjs/jquery.min.js"></script>
-    <script src="./assets/maugallery.js"></script>
-    <script src="./assets/scripts.js"></script>
   </body>
 </html>
