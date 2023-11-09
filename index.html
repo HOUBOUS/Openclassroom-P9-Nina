@@ -16,12 +16,14 @@
       name="description"
       content="Excellente photographe Nina Carducci à Bordeaux, immortalise vos moments avec la prise des photos, retouches et créations d'album"
     />
+    <meta name="robots" content="index, follow"/>
     <!-- meta tags to add facebook links -->
       <meta
       property="og:title"
       content="SiteWeb Nina Carducci - Photographions vos moments les plus précieux"
     />
-    <meta property="og:description" content="Excellente photographe Nina Carducci à Bordeaux, immortalise vos moments avec la prise des photos, retouches et créations d'album">
+    <meta property="og:description" content="Excellente photographe Nina Carducci à Bordeaux, immortalise vos moments avec la prise des photos, 
+    retouches et créations d'album" />
     <meta property="og:url" content="https://nina-carducci.github.io/" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="fr-FR" />
@@ -29,8 +31,15 @@
     <meta property="og:image" content="./assets/images/nina.avif" />
     <meta property="og:site_name" content="nina-carducci.github.io" />
     
+    <!-- meta tags to add Twitter Cards -->
+    <meta name="twitter:url" content="https://houbous.github.io/Openclassroom-P9-Nina/"/>
+    <meta name="twitter:title" content="Nina-Carducci"/>
+    <meta name="twitter:description" content="Excellente photographe Nina Carducci à Bordeaux, immortalise vos moments avec la prise des photos, retouches et créations d'album"/>
+    <meta name="twitter:image" content="./assets/images/nina.avif" />
+    
+
     <script type="application/ld+json">
-      {
+            {
         "@context": "http://schema.org/",
         "@graph": [
           {
@@ -38,7 +47,7 @@
             "@id": "https://nina-carducci.github.io/#website",
             "url": "https://nina-carducci.github.io/",
             "name": "Nina Carducci",
-            "image": "./assets/images/nina.avif",
+            "image": "https://houbous.github.io/Openclassroom-P9-Nina/assets/images/nina.avif",
             "description": "Photographe freelance",
             "inLanguage": "fr-FR"
           },
@@ -416,7 +425,7 @@
                 title="Message"
               >
               </textarea>
-              <input type="submit" value="Envoyer">
+              <input type="submit" value="Envoyer" aria-label="Envoyer">
             </form>
           </div>
           <div class="picture right">
